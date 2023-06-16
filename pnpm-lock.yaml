@@ -22,6 +22,9 @@ devDependencies:
   nuxt:
     specifier: ^3.5.2
     version: 3.5.2(@types/node@18.0.0)
+  push-dir:
+    specifier: ^0.4.1
+    version: 0.4.1
   three:
     specifier: ^0.153.0
     version: 0.153.0
@@ -5084,6 +5087,14 @@ packages:
 
   /prr@1.0.1:
     resolution: {integrity: sha512-yPw4Sng1gWghHQWj0B3ZggWUm4qVbPwPFcRG8KyxiU7J2OHFSoEHKS+EZ3fv5l1t9CyCiop6l/ZYeWbrgoQejw==}
+    dev: true
+
+  /push-dir@0.4.1:
+    resolution: {integrity: sha512-Nrrsly0c3kCfu725Jnif/s5adHpBwKCGWBttHVxTndF4iyGBSFtNi/pduFxHF5ks0kWtHcbA3XXP5MEra6iiCA==}
+    engines: {node: '>=0.12'}
+    hasBin: true
+    dependencies:
+      minimist: 1.2.8
     dev: true
 
   /queue-microtask@1.2.3:
