@@ -1,6 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default ({
-  mode: 'spa',
+ 
+  target: 'static',
+  router: {
+    base: '/nuxt-three/'
+  }
 
   
   
