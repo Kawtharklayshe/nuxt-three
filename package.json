@@ -1,7 +1,7 @@
 {
   "name": "nuxt-three",
   "private": true,
-  "homepage": "https://kawtharklayshe.github.io/nuxt-three/",
+
   "scripts": {
     
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
