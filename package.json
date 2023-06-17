@@ -1,6 +1,6 @@
 {
-  "name": "nuxt-app",
-  "private": false,
+  "name": "nuxt-three",
+  "private": true,
   "homepage": "https://kawtharklayshe.github.io/nuxt-three/",
   "scripts": {
     
