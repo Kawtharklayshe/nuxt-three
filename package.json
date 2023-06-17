@@ -4,7 +4,7 @@
   "homepage": "https://kawtharklayshe.github.io/nuxt-three/",
   "scripts": {
     
-  "deploy": "nuxt generate && gh-pages -d dist",
+    "deploy": "nuxt generate && npx push-dir --dir=dist --branch=gh-pages",
     "build": "nuxt build",
     "predeploy": "npm run build",
     "dev": "nuxt dev",
