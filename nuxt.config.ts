@@ -2,6 +2,6 @@
 
 export default defineNuxtConfig({
   app: {
-    baseURL: '/nuxt-three/_nuxt/'
+    baseURL: '/nuxt-three/'
   }
 })
