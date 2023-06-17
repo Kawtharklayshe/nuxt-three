@@ -2,8 +2,9 @@
   "name": "nuxt-app",
   "private": true,
   "scripts": {
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
+    "deploy": "gh-pages -d dist",
     "build": "nuxt build",
+    "predeploy": "npm run build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
