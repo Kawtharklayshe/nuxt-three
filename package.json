@@ -1,6 +1,7 @@
 {
   "name": "nuxt-app",
   "private": true,
+  "homepage": "https://kawtharklayshe.github.io/nuxt-three/",
   "scripts": {
     
   "deploy": "nuxt generate && gh-pages -d dist",
