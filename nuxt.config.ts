@@ -1,7 +1,6 @@
-
-
-export default defineNuxtConfig({
-  app: {
-    baseURL: '/nuxt-three/'
-  }
-})
+export default {
+  router: {
+    base: '/nuxt-three/' // Update this value to match your base URL
+  },
+  // Other configuration options...
+}
