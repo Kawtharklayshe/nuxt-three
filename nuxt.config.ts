@@ -1,8 +1,5 @@
-export default {
-  // ...
-  build: {
-    rollupOptions: {
-      external: ['three/addons/Loaders/GLTFLoader.js'],
-    },
-  },
-};
+export default defineNuxtConfig({
+  app: {
+    baseURL: '/nuxt-three/'
+  }
+})
