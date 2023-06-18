@@ -19,7 +19,7 @@ import {
 } from "three";
 import {useWindowSize} from '@vueuse/core'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
-import { GLTFLoader} from 'three/addons/Loaders/GLTFLoader.js'
+import { GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader.js'
 let renderer: WebGLRenderer | undefined;
 let controls: OrbitControls | undefined;
 
