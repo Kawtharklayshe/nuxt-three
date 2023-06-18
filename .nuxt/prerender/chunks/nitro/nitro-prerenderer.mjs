@@ -21,7 +21,7 @@ const appConfig = defuFn(inlineAppConfig);
 
 const _inlineRuntimeConfig = {
   "app": {
-    "baseURL": "/",
+    "baseURL": "/nuxt-three/",
     "buildAssetsDir": "/_nuxt/",
     "cdnURL": ""
   },
