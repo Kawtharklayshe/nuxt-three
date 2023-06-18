@@ -1,7 +1,8 @@
 export default {
-  target: 'static',
-  router: {
-    base: 'https://kawtharklayshe.github.io/nuxt-three/'
+  // ...
+  build: {
+    rollupOptions: {
+      external: ['three/addons/Loaders/GLTFLoader.js'],
+    },
   },
-  // Other configuration options...
-}
+};
