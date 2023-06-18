@@ -1,7 +1,9 @@
 {
   "name": "nuxt-three",
   "private": true,
+
   "scripts": {
+    
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
     "build": "nuxt build",
     "predeploy": "npm run build",
@@ -14,12 +16,12 @@
     "@nuxt/devtools": "latest",
     "@types/node": "^18",
     "@types/three": "^0.152.1",
-    "gh-pages": "^5.0.0",
     "nuxt": "^3.5.2",
     "push-dir": "^0.4.1",
     "three": "^0.153.0"
   },
   "dependencies": {
-    "@vueuse/core": "^10.2.0"
+    "@vueuse/core": "^10.2.0",
+    "gh-pages": "^5.0.0"
   }
 }
