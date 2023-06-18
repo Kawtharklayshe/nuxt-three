@@ -1,5 +1,7 @@
 export default {
   router: {
-    base: '/nuxt-three/',
+    base: '/nuxt-three/'
   },
+  publicPath: '/nuxt-three/',
+  // Other configuration options...
 }
